@@ -1,0 +1,61 @@
+<!DOCTYPE html> <!-- במסמך HTML5 -->
+<html lang="he"> <!-- שפה עברית -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <title>טיול שנתי</title>
+</head>
+
+<body dir="rtl">
+  <div class="main-container">
+
+    <div id="out">
+    
+      <h2>ברוכים הבאים</h2>
+      <p>אתר לניהול טיול שנתי</p>
+
+      <br>
+      <a href="register.html" class="reg" style="text-decoration:none">הרשמה</a><br><br>
+      <a href="login.html" class="log" style="text-decoration:none">התחברות</a><br>
+      <!--<button disabled class="hide">לדף בית</button>  כפתור לא לחיץ-->
+      <!--<a href="index.html" class="button-link">חזרה לדף הבית</a>-->
+    
+    </div>
+
+    <div id="in" style="display: none;">
+      
+      <h1>שלום, <span id="user-display-name">אורח</span>!</h1>
+        <div class="lis-button">
+          <br><a href="showTeachers.html" class="lis" style="text-decoration:none">לרשימת המורות</a>
+          <br><a href="showStudents.html" class="lis" style="text-decoration:none">לרשימת התלמידות</a>
+        </div>
+
+      <br><a href="search.html" class="sea" style="text-decoration:none">לחיפוש מורה/תלמידה</a><br>
+
+      <br>
+      <table id="studentsTable">
+        <caption style="text-align: right;">תלמידות:</caption>
+        <colgroup>
+          <col span="1" style="background-color: #d0eeda">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>ת.ז</th>
+            <th>שם</th>
+            <th>משפחה</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- הכנסת התלמידות עם JS -->
+        </tbody>
+      </table>
+
+      <br><button onclick="logout()">התנתק</button>
+    </div>
+
+    <script src="index.js"></script>
+  </div>
+</body>
+
+</html>

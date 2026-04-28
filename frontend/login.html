@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="he">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="login.css">
+    <title>התחברות</title>
+ </head>
+
+ <body>
+  <h3>נא הזן פרטי התחברות</h3>
+
+  <form id="signupForm">
+    <fieldset>
+      <legend>פרטים:</legend>
+
+      <div class="field">
+          <label for="id">ת.ז:</label><br>
+          <input type="text" id="id" name="id" placeholder="9 ספרות" required>
+          <p id="idError" class="error"></p>
+        <br>
+          <label for="role">בחר תפקיד:</label><br>
+          <input list="role_list" id="role" name="role">
+          <datalist id="role_list">
+            <option value="מורה">
+            <option value="תלמידה">
+          </datalist>
+        <p id="roleError" class="error"></p>
+      </div> 
+     <br>
+      <input type="submit" value="התחבר">
+      <p id="result"></p>
+    </fieldset>
+  </form>
+
+  <p><a href="index.html" class="home" style="text-decoration:none">חזרה לדף בית</a></p>
+  <script src="login.js"></script>
+ </body>
+</html>

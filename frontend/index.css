@@ -1,0 +1,110 @@
+body {
+  background-color: powderblue;
+   text-align: center;
+   margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh; /* מבטיח שהרקע יכסה לפחות את כל המסך */
+    overflow-x: hidden; /* מונע בריחה של אלמנטים לצדדים (גלילה אופקית מיותרת) */
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+  background-color: #04AA6D;
+  color: rgb(0, 0, 0);
+  font-family: verdana;
+   padding: 20px; /* ריווח פנימי */
+}
+
+p {
+  color: rgb(3, 78, 47);
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid rgb(13, 218, 68); 
+  padding: 20px;
+  margin: 40px;
+}
+
+.reg {
+  background-color: #0a9967;
+  color: white;
+  font-size: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* סמן עכבר של כפתור */
+  margin-top: 10px; /* ריווח מלמעלה */
+  padding: 10px 20px; /* ריווח פנימי */
+  border: 1px solid var;
+}
+
+.reg:hover {
+  background-color: #059862;
+}
+
+.log{
+    background-color: #38a881;
+  color: white;
+  font-size: 15px;
+  padding: 12px;
+  border-radius: 3px;
+  cursor: pointer; /* סמן עכבר של כפתור */
+  margin-top: 15px; /* ריווח מלמעלה */
+  padding: 5px 10px; /* ריווח פנימי */
+}
+
+.hide{
+  background-color: rgb(175, 214, 185);
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.lis-button{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.lis{
+  background-color: #0a9967;
+  color: white;
+  font-size: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer; 
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.sea{
+  background-color: #38a881;
+  color: white;
+  font-size: 15px;
+  padding: 12px;
+  border-radius: 3px;
+  cursor: pointer; /* סמן עכבר של כפתור */
+  margin-top: 15px; /* ריווח מלמעלה */
+  padding: 5px 10px; /* ריווח פנימי */
+  border: 1px solid var;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-style: double;
+  text-align: right;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}

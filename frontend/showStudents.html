@@ -1,0 +1,38 @@
+<!DOCTYPE html> <!-- במסמך HTML5 -->
+<html lang="he"> <!-- שפה עברית -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="showStudents.css">
+        <title>טבלת תלמידות</title>
+    </head>
+
+  <body dir="rtl">
+    <div class="main-container">
+
+        <table id="studentsTable">
+            <caption style="text-align: right;">תלמידות:</caption>
+            <colgroup>
+            <col span="1" style="background-color: #d0eeda">
+            </colgroup>
+            <thead>
+            <tr>
+                <th>ת.ז</th>
+                <th>שם</th>
+                <th>משפחה</th>
+                <th>כיתה</th>
+                <th>מורה</th>
+                <th>סטטוס</th>
+            </tr>
+            </thead>
+            <tbody>
+            <!-- הכנסת התלמידות עם JS -->
+            </tbody>
+        </table>
+        
+        <p><a href="index.html" class="home" style="text-decoration:none">חזרה לדף בית</a></p>
+        <script src="showStudents.js"></script>
+    </div>
+  </body>
+
+</html>

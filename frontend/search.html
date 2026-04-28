@@ -1,0 +1,39 @@
+<!DOCTYPE html> <!-- במסמך HTML5 -->
+<html lang="he"> <!-- שפה עברית -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="search.css">
+        <title>חיפוש מורה/תלמידה</title>
+    </head>
+
+  <body dir="rtl">
+    <div class="main-container">
+        <h2>חיפוש</h2>
+        
+
+        <div class="search-controls">
+        <input type="text" id="searchInput" placeholder="הזן תעודת זהות (9 ספרות)">
+        <button onclick="performSearch()">חפש</button>
+    </div>
+
+    <p id="messageArea" class="message"></p>
+
+    <div id="resultCard" class="result-card">
+        <h3 id="resType"></h3>
+        <p><strong>שם מלא:</strong> <span id="resFullName"></span></p>
+        <p><strong>תעודת זהות:</strong> <span id="resId"></span></p>
+        <p><strong>כיתה:</strong> <span id="resClass"></span></p>
+        
+        <div id="studentCard" style="display: none;">
+            <p><strong>סטטוס:</strong> <span id="resStatus"></span></p>
+            <p class="teacher-mention">מורה אחראית: <span id="resTeacher"></span></p>
+        </div>
+    </div>
+
+        <p><a href="index.html" class="home" style="text-decoration:none">חזרה לדף בית</a></p>
+        <script src="search.js"></script>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,17 @@
+body {
+  background-color: powderblue;
+   text-align: center;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-style: double;
+  text-align: right;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}

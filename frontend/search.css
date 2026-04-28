@@ -1,0 +1,39 @@
+body {
+  background-color: powderblue;
+   text-align: center;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* עיצוב כרטיס התוצאה */
+.result-card {
+    border: 2px solid #d0eeda;
+    padding: 15px;
+    border-radius: 8px;
+    background: white;
+    display: none;
+    text-align: right;
+    min-width: 250px;
+    margin-top: 20px;
+}
+
+.teacher-mention {
+    color: #2e7d32;
+    font-weight: bold;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.message {
+    margin: 10px 0;
+}
+
+.error-text {
+    color: red;
+}
+
+.loading-text {
+    color: blue;
+}
