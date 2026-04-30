@@ -1,0 +1,24 @@
+body {
+  background-color: powderblue;
+   text-align: center;
+   margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+  background-color: #04AA6D;
+  color: rgb(0, 0, 0);
+  font-family: verdana;
+   padding: 20px; /* ריווח פנימי */
+}
+
+#map { 
+  height: 400px; 
+  width: 100%;
+  border: 1px solid #ccc;
+}

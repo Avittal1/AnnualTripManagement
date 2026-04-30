@@ -74,6 +74,14 @@ p {
   margin-top: 20px;
 }
 
+.stu-button{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
 .lis{
   background-color: #0a9967;
   color: white;

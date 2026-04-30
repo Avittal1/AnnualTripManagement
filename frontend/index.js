@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const loggedOut = document.getElementById('out');
     const nameSpan = document.getElementById('user-display-name');
     const table = document.getElementById('studentsTable');
+    const Smap = document.getElementById('Smap');
 
     if (user) {
         // אם קיים משתמש - נציג את אזור המחוברים
@@ -17,11 +18,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         // עדכון השם בתצוגה
         if (nameSpan) nameSpan.textContent = user.first_name;
 
-        // בדיקת הרשאה שהמורה תראה את הטבלה
+        // בדיקת הרשאה שהמורה תראה את הטבלה והמפה
         if (user.role === 'מורה') {
             loadStudents(user.id);
         } else {
             table.style.display = 'none';
+            Smap.style.display = 'none';
         }
     } else {
         loggedIn.style.display = 'none';
