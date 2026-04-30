@@ -4,8 +4,8 @@ body {
    margin: 0;
     padding: 0;
     width: 100%;
-    min-height: 100vh; /* מבטיח שהרקע יכסה לפחות את כל המסך */
-    overflow-x: hidden; /* מונע בריחה של אלמנטים לצדדים (גלילה אופקית מיותרת) */
+    min-height: 100vh;
+    overflow-x: hidden; /* מונע בריחה של אלמנטים לצדדים */
     display: flex;
     flex-direction: column;
 }
@@ -20,7 +20,7 @@ h2 {
   background-color: #04AA6D;
   color: rgb(0, 0, 0);
   font-family: verdana;
-   padding: 20px; /* ריווח פנימי */
+   padding: 20px;
 }
 
 p {
@@ -54,9 +54,9 @@ p {
   font-size: 15px;
   padding: 12px;
   border-radius: 3px;
-  cursor: pointer; /* סמן עכבר של כפתור */
-  margin-top: 15px; /* ריווח מלמעלה */
-  padding: 5px 10px; /* ריווח פנימי */
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 5px 10px;
 }
 
 .hide{

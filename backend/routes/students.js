@@ -2,9 +2,8 @@ const express = require("express");
 const router = express.Router();
 const { supabase } = require("../supabase"); // ייבוא הלקוח מהקובץ שיצרת
 
-// משתנה מקומי בשרת שיחזיק את המיקומים האחרונים בלבד
-// המפתח יהיה ID של התלמידה, והערך יהיה אובייקט הנתונים שלה
-let latestLocations = {};// הגדרת משתנה גלובלי בזיכרון השרת
+
+let latestLocations = {};// הגדרת משתנה גלובלי בזיכרון השרת למיקומי התלמידות
 
 //ראוטר עדכון מיקום
 router.post("/update-location", (req, res) => {
@@ -26,7 +25,6 @@ router.post("/update-location", (req, res) => {
 
 // ראוטר שמקבל את כל המיקומים
 router.get("/all-locations", (req, res) => {
-    // הופכים את האובייקט למערך כדי שהמפה תוכל לעבור עליו ב-forEach
     res.json(Object.values(latestLocations));
 });
 

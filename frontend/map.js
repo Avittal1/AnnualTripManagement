@@ -1,4 +1,4 @@
-//הגדרות מפה ומיקום נוכחי של המחובר
+//הגדרות מפה ומיקום נוכחי של המחוברת
 
 // יצירת המפה וקביעת מרכז (ירושלים) וזום
 var map = L.map('map').setView([31.7683, 35.2137], 13);
@@ -56,10 +56,6 @@ async function refreshStudents() {
         const response = await fetch('/api/students/all-locations');
         const locations = await response.json();
 
-        // --- בדיקה---
-        console.log("הנתונים שהתקבלו מהשרת:", locations); 
-        // ---------------------------------
-
         // ניקוי המפה ממיקומים ישנים
         studentsLayer.clearLayers();
 
@@ -96,17 +92,3 @@ function zoomToAll() {
         map.fitBounds(studentsLayer.getBounds(), { padding: [30, 30] });
     }
 }
-//בדיקה
-//L.marker([50.5, 30.5]).addTo(map);//הוספת אוביקט למפה
-
-
-//function(geoJsonPoint, latlng) {// מקורדינטות(DD) לאוביקט מפה
-//    return L.marker(latlng);
-//}
-
-//JSON.parse()// מ-JSON ל-JS
-//JSON.stringify()// מ-JS ל-JSON
-
-//const myJSON = '{"name":"John", "age":31, "city":"New York"}';
-//const myObj = JSON.parse(myJSON);
-//document.getElementById("demo").innerHTML = myObj.name;

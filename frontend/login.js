@@ -34,7 +34,6 @@ form.addEventListener("submit", async function (event) {
 
     try {
       // שליחת בקשה לשרת לבדיקה אם המשתמש קיים
-      // הערה: וודא שיש לך נתיב כזה ב-backend (למשל login או get user by id)
       const res = await fetch(`http://localhost:3000/api/users/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },

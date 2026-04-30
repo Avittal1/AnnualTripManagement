@@ -70,7 +70,6 @@ form.addEventListener("submit", async function (event) {
       result.textContent = "הנתונים תקינים, מתחבר...";
       result.className = "ok";
     }
-   // כאן תבוא שליחת POST לשרת
    const role = getSelectedRole();
 
 const body = {
