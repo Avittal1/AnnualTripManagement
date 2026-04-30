@@ -65,7 +65,7 @@
 
 דף הבית:
 
-<img src="Images/home-out.jpg" width="200"/>
+<img src="Images/home-out.jpg" width="300"/>
 
 **הרשמת מורה:** עלייך להזין פרטי הרשמה תוך מילוי פרטים תקינים בכל השדות:
 
@@ -98,7 +98,7 @@
 
 הכפתור מהדף בית:
 
-<img src="Images/home-out.jpg" width="400"/>
+<img src="Images/tea-list-button.jpg" width="400"/>
 
 רשימת המורות:
 
@@ -108,7 +108,7 @@
 
 הכפתור מהדף בית:
 
-<img src="Images/home-out.jpg" width="400"/> 
+<img src="Images/stu-list-button.jpg" width="400"/> 
 רשימת התלמידות:
 
 <img src="Images/students-list.jpg" width="400"/>
@@ -119,10 +119,10 @@
 
 הכפתור מהדף בית:
 
-<img src="Images/home-out.jpg" width="400"/>
+<img src="Images/search-button.jpg" width="400"/>
 חיפוש:
 
-<img src="Images/seearch-teaORstu.jpg.jpg" width="400"/>
+<img src="Images/seearch-teaORstu.jpg" width="400"/>
 תוצאת חיפוש:
 
 <img src="Images/search-result.jpg" width="400"/>
@@ -133,7 +133,7 @@
 
 הכפתור מדף הבית:
 
-<img src="Images/home-out.jpg" width="400"/>
+<img src="Images/map-buttom.jpg" width="400"/>
 מפת התלמידות:
 
 <img src="Images/stu-map-me.jpg" width="400"/>
@@ -142,7 +142,7 @@
 ## סיום:
 
 מקווים שתמצאו את המערכת מועילה ונוחה לשימוש. טיול מוצלח לכולם!
-
+---
 
 **תוכנית לעתיד:** הטמעת השרת בענן לאספקת זמינות של 24/7 ללא תלות בתחנת עבודה מקומית.
 
