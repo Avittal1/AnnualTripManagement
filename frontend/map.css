@@ -22,3 +22,14 @@ h3 {
   width: 100%;
   border: 1px solid #ccc;
 }
+
+.main-btn {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    z-index: 1000;
+    padding: 8px 12px;
+    cursor: pointer;
+    background: rgb(127, 231, 167);
+    border: 1px solid #ccc;
+}
