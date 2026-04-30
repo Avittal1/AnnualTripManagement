@@ -64,27 +64,32 @@
 כדי להשתמש בתכונות ופונקציונליות האתר יש להירשם לאתר על ידי הזנת פרטים. לדוגמא:
 
 דף הבית:
-<img src="Images/home-out.jpg" width="400"/>
+
+<img src="Images/home-out.jpg" width="200"/>
 
 **הרשמת מורה:** עלייך להזין פרטי הרשמה תוך מילוי פרטים תקינים בכל השדות:
 
 דף הרשמה:
-<img src="Images/register-teacher.jpg" width="600"/>
+
+<img src="Images/register-teacher.jpg" width="400"/>
 
 לאחר ההרשמה יוצג דף הבית של האתר עם הפרטים שהזנת:
 
 דף בית לאחר הרשמת מורה:
-<img src="Images/in-teacher.jpg" width="600"/>
+
+<img src="Images/in-teacher.jpg" width="400"/>
 
 **הרשמת תלמידה:**  עלייך להזין פרטי הרשמה תוך מילוי פרטים תקינים בכל השדות:
 
 דף ההרשמה:
-<img src="Images/login-stuednt.jpg" width="600"/>
+
+<img src="Images/login-stuednt.jpg" width="400"/>
 
 לאחר ההרשמה יוצג דף הבית של האתר עם הפרטים שהזנת:
 
 דף בית לאחר הרשמת תלמידה:
-<img src="Images/in-student.jpg" width="600"/>
+
+<img src="Images/in-student.jpg" width="400"/>
 
 ## תכונות ופונקציות עיקריות:
 **ניהול רשימות:** ניתן לצפות בקלות ברשימת המורות והתלמידות שנרשמו למערכת. (בנוסף מוצג למורות רשימת התלמידות מהכיתה שלהם בדף בית כפי שניתן לראות בדוגמא של דף הבית לאחר הרשמת מורה למערכת).
@@ -92,38 +97,46 @@
 >כדי לגשת לרישמת המורות במערכת; יש ללחוץ על הכפתור "לרשימת המורות" מהדף בית.
 
 הכפתור מהדף בית:
-<img src="Images/home-out.jpg" width="600"/>
+
+<img src="Images/home-out.jpg" width="400"/>
 
 רשימת המורות:
-<img src="Images/teachers-list.jpg" width="600"/>
+
+<img src="Images/teachers-list.jpg" width="400"/>
 
 >כדי לגשת לרשימת התלמידות במערכת; יש ללחוץ על הכפתור "לרשימת התלמידות" מהדף בית.
 
 הכפתור מהדף בית:
-<img src="Images/home-out.jpg" width="600"/> 
+
+<img src="Images/home-out.jpg" width="400"/> 
 רשימת התלמידות:
-<img src="Images/students-list.jpg" width="600"/>
+
+<img src="Images/students-list.jpg" width="400"/>
 
 **חיפוש חכם:** ניתן לחפש מידע על מורה או תלמידה ספציפיות שנרשמו למערכת.
 
 >לחיפוש מורה/תלממידה ספציפיות; יש ללחוץ על כפתור "לחיפוש מורה/תלמידה" שמוצג בדף בית.
 
 הכפתור מהדף בית:
-<img src="Images/home-out.jpg" width="600"/>
 
-חיפוש: 
-<img src="Images/seearch-teaORstu.jpg.jpg" width="600"/>
+<img src="Images/home-out.jpg" width="400"/>
+חיפוש:
+
+<img src="Images/seearch-teaORstu.jpg.jpg" width="400"/>
 תוצאת חיפוש:
-<img src="Images/search-result.jpg" width="600"/>
+
+<img src="Images/search-result.jpg" width="400"/>
 
 **מפה ומיקומים בזמו אמת** כדי לוודא בקלות שכולם בטיול יש אפשרות למורות לראות את מיקומי התלמידות במפה ביחס למיקום שלהם.
 
 >לתצוגת המפה ומיקומי התלמידות; יש ללחוץ על כפתור "למפת התלמידות" שמופיע בדף בית. (**הערה:** כדי לצפות בצורה מיבית ומדויקת יש לאשר לדפדפן לצפות במיום הנוכחי שלך).
 
-הכפתור מדף הבית:  
-<img src="Images/home-out.jpg" width="600"/>
+הכפתור מדף הבית:
+
+<img src="Images/home-out.jpg" width="400"/>
 מפת התלמידות:
-<img src="Images/stu-map-me.jpg" width="600"/>
+
+<img src="Images/stu-map-me.jpg" width="400"/>
 
 ---
 ## סיום:
